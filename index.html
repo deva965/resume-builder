@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Resume Builder</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
 <div class="container">
 
-  <!-- FORM SECTION -->
-  <div class="form">
-    <h2>Resume Builder</h2>
+  <div class="form-card">
+    <h2>Create Your Resume</h2>
 
     <input type="text" id="name" placeholder="Full Name">
     <input type="email" id="email" placeholder="Email">
@@ -23,10 +14,11 @@
     <button onclick="createResume()">Create Resume</button>
   </div>
 
-  <!-- RESUME PREVIEW -->
-  <div class="resume">
-    <h1 id="r-name"></h1>
-    <p id="r-contact"></p>
+  <div class="resume-card">
+    <h1 id="r-name">Your Name</h1>
+    <p id="r-contact">Email | Phone</p>
+
+    <hr>
 
     <h3>Skills</h3>
     <p id="r-skills"></p>
@@ -40,9 +32,3 @@
 
 </div>
 
-<script src="script.js"></script>
-</body>
-</html>
-
-
-   
